@@ -1,0 +1,7 @@
+*.log
+*.temp
+temp/
+.vscode
+.mypy_cache
+SeungaKim/[STU]/C/
+SeungaKim/[STU]/Python/
