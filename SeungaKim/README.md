@@ -66,6 +66,8 @@
   |`다이나믹`|병사배치|보통|[dp_병사배치](./[STU]/simple_exerciese/dp_병사배치py)|00:47:00.00|✅|
   |`다이나믹`|코인|보통|[dp_coin](./[STU]/simple_exerciese/dp_coin.py)|01:26:00.00|✅|
   |`다이나믹`|개미전사|보통|[dp_개미전사](./[STU]/simple_exerciese/dp_개미전사.py)|00:44:00.00|✅|
+  |`최단거리`|전보|어려움|[dijkstra_전보](./[STU]/simple_exerciese/dijkstra_전보.py)|02:01:00.00|✅|
+  |`최단거리`|미래도시|-|[fw_미래도시](./[STU]/simple_exerciese/fw_미래도시.py)|00:00:00.00||
   
   ### 백준
   |코드 번호|이름|난이도|풀이 유형|풀이 코드|풀이 시간|상태|
