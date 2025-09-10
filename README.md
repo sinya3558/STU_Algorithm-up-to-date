@@ -76,9 +76,9 @@ git commit -m "25/01/11 공통 문제 풀이 (학부 연구생 민상)" -m "http
 # 🧑‍💻 챌린지 참가자
 <table><tr>
    <td align="center"><a href="https://github.com/MyoungJinSon"><img src="https://avatars.githubusercontent.com/u/46157544?v=4?s=100" width="100px;" alt=""/>
-   <br /><sub><b>MyoungJinSon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/61"/></sub></a><br /></td>
+   <br /><sub><b>MyoungJinSon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/68"/></sub></a><br /></td>
    <td align="center"><a href="https://github.com/sinya3558"><img src="https://avatars.githubusercontent.com/u/70243358?v=4?s=100" width="100px;" alt=""/>
-   <br /><sub><b>sinya3558</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/17"/></sub></a><br /></td>
+   <br /><sub><b>sinya3558</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/24"/></sub></a><br /></td>
 </tr></table>
 
 

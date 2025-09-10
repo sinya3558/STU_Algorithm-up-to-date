@@ -10,8 +10,8 @@ sudoku= [[0] * COL for _ in range(ROW)] # 똑같은 실수를 또 반복하고
 
 # sudoku:list[list[int]] = []
 # with open("input.txt","r") as f:
-#     for r_idx, r_ele in enumerate(f.readlines()):
-#         sudoku[r_idx] = r_ele.strip()
+#     for f_ele in f.readlines():
+#         sudoku.append(f_ele.strip())
 
 
 # assign user input to the sudoku board

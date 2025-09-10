@@ -34,5 +34,7 @@
 | |`DFS/BFS`,`그래프 탐색`|[인구이동](https://www.acmicpc.net/problem/16234)|✅|✅|
 |8/11 ~ 8/24|`투포인터`, `이분 탐색`|[용액](https://www.acmicpc.net/problem/2467)|✅|✅|
 ||`그리디 알고리즘`|[도서관](https://www.acmicpc.net/problem/1461)|✅|✅|
-|8/25 ~ 9/7|`구현`|[모노미노도미노2](https://www.acmicpc.net/problem/20061)| ||
-||`구현`|[스도쿠](https://www.acmicpc.net/problem/2239)|||
+|8/25 ~ 9/7|`구현`|[모노미노도미노2](https://www.acmicpc.net/problem/20061)|✅ ||
+||`구현`|[스도쿠](https://www.acmicpc.net/problem/2239)|✅|✅|
+|9/10 ~ 9/21|`트리 탐색`|[표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)| ||
+||`2D 배열`|[파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)|||

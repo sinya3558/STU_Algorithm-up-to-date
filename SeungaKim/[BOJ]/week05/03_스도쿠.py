@@ -1,11 +1,15 @@
 # https://www.acmicpc.net/problem/2239 
 import sys
 # 주석처리 삭제 버전
+# sys.stdin = open('input.txt', 'r')
+# def input():
+#     return sys.stdin.readline().rstrip()
 ROW = 9 
 COL = 9
 sudoku = [[0] * COL for _ in range(ROW)]
 for r in range(ROW):
     u_input = sys.stdin.readline().strip() 
+    # u_input = input()
     sudoku[r] = list(map(int, u_input))     
 sudoku_zeros = [(i, j) for i in range(ROW) for j in range(COL) if sudoku[i][j] == 0]
 
