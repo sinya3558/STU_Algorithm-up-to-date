@@ -37,4 +37,4 @@
 |8/25 ~ 9/7|`구현`|[모노미노도미노2](https://www.acmicpc.net/problem/20061)|✅ ||
 ||`구현`|[스도쿠](https://www.acmicpc.net/problem/2239)|✅|✅|
 |9/10 ~ 9/21|`트리 탐색`|[표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)| ||
-||`2D 배열`|[파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)|||
+||`그래프`, `최단경로`|[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413?language=python3)|||
