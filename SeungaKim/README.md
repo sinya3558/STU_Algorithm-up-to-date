@@ -39,6 +39,9 @@
   |코드 번호|이름|난이도|풀이 유형|풀이 코드|풀이 시간|상태|
   |:------:|:------|:------:|:------|:------|:------|:------:|
   |**_159993_**| [미로찾기](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 2|	`-`|	[01_미로찾기.py](./[PGS]/01_미로찾기.py)|	02:44:00.00|⏳|
+  |**_258712_**| [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[01_가장많이받은선물.py](./[PGS]/01_가장많이받은선물.py)|01:38:00.00|✅|
+  |**_388351_**| [유연근무제](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[02_유연근무제.py](./[PGS]/02_유연근무제.py)|	01:21:00.00|✅|
+  |**_159993_**| [이웃 한칸](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[03_이웃한칸.py](./[PGS]/03_이웃한칸.py)|	00:54:00.00|✅|
 
 
 </details>
