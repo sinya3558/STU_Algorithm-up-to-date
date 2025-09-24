@@ -43,7 +43,7 @@
   |**_388351_**| [유연근무제](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[02_유연근무제.py](./[PGS]/02_유연근무제.py)|	01:21:00.00|✅|
   |**_159993_**| [이웃 한칸](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[03_이웃한칸.py](./[PGS]/03_이웃한칸.py)|	00:54:00.00|✅|
   |**_72413_**| [합승택시요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)|Lv 3|	`최단거리`|	[02_합승택시요금.py](./[PGS]/week06_공통문제/02_합승택시요금.py)|	02:05:00.00||
-  |**_150367_**| [표현가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)|Lv 3|	`-`|	[01_표현가능한_이진트리.py](./[PGS]/week06_공통문제/01_표현가능한_이진트리.py)|	00:00:00.00||
+  |**_150367_**| [표현가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)|Lv 3|`그래프`|	[03_표현가능한_이진트리.py](./[PGS]/week06_공통문제/03_표현가능한_이진트리2.py)|	02:55:00.00|✅|
 
 
 </details>
