@@ -90,4 +90,3 @@ def solution(n, s, a, b, fares):
 
     return answer
 
-# 자꾸 에러남...왜..

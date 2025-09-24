@@ -7,7 +7,7 @@
 - ⏳ : 풀이 중
 - ✔️ : 코드 참고
 
-### [BOJ] 백준 (스터디 공통 풀이 문제)
+### [BOJ] 백준
 
 <details>
     <summary>문제 풀이 모음집</summary>
@@ -42,6 +42,8 @@
   |**_258712_**| [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[01_가장많이받은선물.py](./[PGS]/01_가장많이받은선물.py)|01:38:00.00|✅|
   |**_388351_**| [유연근무제](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[02_유연근무제.py](./[PGS]/02_유연근무제.py)|	01:21:00.00|✅|
   |**_159993_**| [이웃 한칸](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[03_이웃한칸.py](./[PGS]/03_이웃한칸.py)|	00:54:00.00|✅|
+  |**_72413_**| [합승택시요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)|Lv 3|	`최단거리`|	[02_합승택시요금.py](./[PGS]/week06_공통문제/02_합승택시요금.py)|	02:05:00.00||
+  |**_150367_**| [표현가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)|Lv 3|	`-`|	[01_표현가능한_이진트리.py](./[PGS]/week06_공통문제/01_표현가능한_이진트리.py)|	00:00:00.00||
 
 
 </details>
@@ -58,11 +60,12 @@
 
 </details>
 
-### [STU] 개인 공부 자료
+### [STU] 연습문제
 <details>
-    <summary>연습 문제들</summary>
+    <summary>문제 풀이 모음집</summary>
   </br>
-
+  
+  ### 알고리즘
   |문제 유형|이름|난이도|풀이 코드|풀이 시간|상태|
   |:------:|:------|:------:|:------|:------|:------|
   |`다이나믹`|금광|어려움|[dp_금광](./[STU]/simple_exerciese/dp_금광.py)|03:09:00.00|✅|
