@@ -36,5 +36,6 @@
 ||`그리디 알고리즘`|[도서관](https://www.acmicpc.net/problem/1461)|✅|✅|
 |8/25 ~ 9/7|`구현`|[모노미노도미노2](https://www.acmicpc.net/problem/20061)|✅ ||
 ||`구현`|[스도쿠](https://www.acmicpc.net/problem/2239)|✅|✅|
-|9/10 ~ 9/21|`트리 탐색`|[표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)| ||
-||`그래프`, `최단경로`|[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413?language=python3)|||
+|9/10 ~ 9/21|`트리 탐색`|[표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)|✅||
+||`그래프`, `최단경로`|[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413?language=python3)||✅|
+|9/26 ~ 10/20|`그래프 탐색`, `트리`|[트리](https://www.acmicpc.net/problem/1068)||
