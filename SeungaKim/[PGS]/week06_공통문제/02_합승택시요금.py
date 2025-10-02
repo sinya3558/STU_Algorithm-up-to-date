@@ -23,73 +23,69 @@ def solution(n, s, a, b, fares):
     # 일단, 이게 어떤 알고리즘이 필요함?? 투포인터? 최단거리 찾기 -> dijkstra
     '''
     dijkstra
-    1. set up starting point
-    2. init shortest path table
-    3. select closest node if its not visited
-    4. cal cost from node to another
-    4. repeat step 3-4 -> update shortest path w new cost
+    1. 시작 노드 설정!
+    2. 최단거리 테이블 init!
+    3. 방문 하지 않은 노드 중 가장 거리 가까운 노드 선택
+    4. 최단 거리 계산
+    5. 3-4번 반복해서 -> 최단거리 계산해서 테이블 채우기
     '''
-    try :
-        # declare vars
-        answer = 0
-        tb_shortest_path = []
-        INF = int(1e6)                              # fares의 값이 100000이하 자연수여야함
-        # visited = [False] * (n + 1)         # 방문 거리 초기화 ---> 이하 동문입니다. 여기말고 사용 함수 안에다 적어야지
-        # tb_shortest_path = [INF] * (n + 1)  # 최단 거리 테이블도 초기화 -> 얘 땜에 테이블 초기화 안되서 에러남ㅋㅋㅋㅋㅋㅋㅋ 바보야
-        info = [[] for _ in range( n + 1 )]   # 노드 정보(번호, 거리) 담을 리스트
+    # declare vars
+    answer = 0
+    tb_shortest_path = []
+    INF = int(1e6)                              # fares의 값이 100000이하 자연수여야함
+    # visited = [False] * (n + 1)         # 방문 거리 초기화 ---> 여기말고 사용 함수 안에다 적어야지
+    # tb_shortest_path = [INF] * (n + 1)  # 최단 거리 테이블도 초기화 -> 얘 땜에 테이블 초기화 안되서 에러남ㅋㅋㅋㅋㅋㅋㅋ 바보야
+    info = [[] for _ in range( n + 1 )]   # 노드 정보(번호, 거리) 담을 리스트
 
-        # # fares 값 모두 입력받기
-        for idx in range(len(fares)):
-            curr, nxt, cost = map(int, fares[idx])
-            # print(curr, nxt, cost)
-            info[curr].append((nxt, cost))     # (next node num, cost(=distance))
-            info[nxt].append((curr, cost))     # (curr node num, cost(=distance)), curr <-> nxt 순서 상관 없긴한데.. 괜찮나?
+    # # fares 값 모두 입력받기 == 그래프 그리기
+    for idx in range(len(fares)):
+        curr, nxt, cost = map(int, fares[idx])
+        # print(curr, nxt, cost)
+        info[curr].append((nxt, cost))     # (next node num, cost(=distance))
+        info[nxt].append((curr, cost))     # (curr node num, cost(=distance)), curr <-> nxt 순서 상관 없긴한데.. 괜찮나?
 
 
-        # min 거리의 노드 인덱스 반환시켜 -> ***방문하지 않은 노드*** 중에서
-        def get_min_idx(tb_shortest_path, visited):
-            min_val = INF
-            min_idx = -1    # 0 했다가 에러남. invalid 하려고 (-1) 넣어버림
-            for i in range(1, n+1):
-                if tb_shortest_path[i] < min_val and not visited[i]:    # 아하
-                    min_val = tb_shortest_path[i]   # update
-                    min_idx = i
-            return min_idx
+    # min 거리의 노드 인덱스 반환시켜 -> ***방문하지 않은 노드*** 중에서
+    def get_min_idx(tb_shortest_path, visited):
+        min_val = INF
+        min_idx = -1    # 0 했다가 에러남. invalid 하려고 (-1) 넣어버림
+        for i in range(1, n+1):
+            if tb_shortest_path[i] < min_val and not visited[i]:    # 아하
+                min_val = tb_shortest_path[i]   # update
+                min_idx = i
+        return min_idx
 
-        # 다익스트라
-        def dijkstra(start):
-            # declare 'path-table' and 'visited' status as local vals to init whenever its called
-            tb_shortest_path = [INF] * (n + 1)
-            visited = [False] * (n + 1)
-            # init start node & visited
-            tb_shortest_path[start] = 0
-            # visited[start] = True # ! 주의할 것
+    # 다익스트라
+    def dijkstra(start):
+        # declare 'path-table' and 'visited' status as local vals to init whenever its called
+        tb_shortest_path = [INF] * (n + 1)
+        visited = [False] * (n + 1)
+        # init start node & visited
+        tb_shortest_path[start] = 0
+        # visited[start] = True # ! 주의할 것
 
-            for _ in range(n):
-                curr = get_min_idx(tb_shortest_path, visited)    # find min dist(=cost)
-                if curr == -1:  # invalid 할때
-                    break
-                visited[curr] = True    # 방문처리
+        for _ in range(n):
+            curr = get_min_idx(tb_shortest_path, visited)    # find min dist(=cost)
+            if curr == -1:  # invalid 할때
+                break
+            visited[curr] = True    # 방문처리
 
-                for nxt, cost in info[curr]:    # curr 노드와 인접한 노드의 거리 체크
-                    new_dist = tb_shortest_path[curr] + cost
-                    if new_dist < tb_shortest_path[nxt]:
-                        tb_shortest_path[nxt] = new_dist
+            for nxt, cost in info[curr]:    # curr 노드와 인접한 노드의 거리 체크
+                new_dist = tb_shortest_path[curr] + cost
+                if new_dist < tb_shortest_path[nxt]:
+                    tb_shortest_path[nxt] = new_dist
 
-            return tb_shortest_path
+        return tb_shortest_path
 
-        # dijkstra(s)
-        # s -> e 최단 거리 테이블 구해버리기
-        dist_s = dijkstra(s)
-        dist_a = dijkstra(a)
-        dist_b = dijkstra(b)
+    # dijkstra(s)
+    # 각 노드에 대해서(s, a, b) 최단 거리 테이블 구해버리기 -> 여기 도저히 모르겠어서 도움 받았어요!
+    dist_s = dijkstra(s)
+    dist_a = dijkstra(a)
+    dist_b = dijkstra(b)
 
-        # 합승 지점을 k로 했을 때 최소 요금 계산
-        answer = INF
-        for k in range(1, n + 1):
-            answer = min(answer, dist_s[k] + dist_a[k] + dist_b[k])
+    # 합승 지점을 k로 했을 때 최소 요금 계산, min_fare = (시작점에서 → k 까지 같이) + (k 에서 → a 까지) + (k → b)
+    answer = INF
+    for k in range(1, n + 1):
+        answer = min(answer, dist_s[k] + dist_a[k] + dist_b[k])
 
-        return answer
-
-    except Exception as e:
-        print(e)
+    return answer
