@@ -39,3 +39,4 @@
 |9/10 ~ 9/21|`트리 탐색`|[표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)|✅||
 ||`그래프`, `최단경로`|[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413?language=python3)||✅|
 |9/26 ~ 10/20|`그래프 탐색`, `트리`|[트리](https://www.acmicpc.net/problem/1068)||
+||`백트래킹`, `그리디`|[미로 탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365)||
