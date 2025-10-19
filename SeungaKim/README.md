@@ -45,9 +45,9 @@
   |**_159993_**| [이웃 한칸](https://school.programmers.co.kr/learn/courses/30/lessons/159993)|Lv 1|	`-`|	[03_이웃한칸.py](./[PGS]/03_이웃한칸.py)|	00:54:00.00|✅|
   |**_72413_**| [합승택시요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)|Lv 3|	`최단거리`, `우선순위큐`|	[02_합승택시요금.py](./[PGS]/week06_공통문제/02_합승택시요금.py)|	02:38:00.00|✅|
   |**_150367_**| [표현가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)|Lv 3|`그래프`, `BFS`|	[03_표현가능한_이진트리.py](./[PGS]/week06_공통문제/03_표현가능한_이진트리2.py)|	02:55:00.00|✅|
-  |**150365**|[미로 탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365)|Lv 3|`백트래킹`, `그리디`|[01_미로탈출명령어.py](./[PGS]/week07_공통문제/01_미로탈출명령어.py)|
-  |**87694**|[아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)|Lv 3| `DFS/BFS`|[02_아이템줍기](./[PGS]/week07_공통문제/02_아이템줍기.py)|
-  |**1844**|[게임 내 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)|Lv 2|`DFS/BFS`|[02_게임내최단거리.py](./[PGS]/DFS_BFS/02_게임내최단거리.py)|
+  |**150365**|[미로 탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365)|Lv 3|`백트래킹`, `그리디`|[01_미로탈출명령어.py](./[PGS]/week07_공통문제/01_미로탈출명령어.py)| 01:48:00.00|✔️|
+  |**87694**|[아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)|Lv 3| `DFS/BFS`|[02_아이템줍기](./[PGS]/week07_공통문제/02_아이템줍기.py)| 01:02:00.00 |✅|
+  |**1844**|[게임 내 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)|Lv 2|`DFS/BFS`|[02_게임내최단거리.py](./[PGS]/DFS_BFS/02_게임내최단거리.py)|01:25:00.00| ✅|
   |**340198**|[[PCCE기출]공원](https://school.programmers.co.kr/learn/courses/30/lessons/340198)|Lv 1|`그리디`|[02_[PCCE기출문제]공원.py](./[PGS]/DP/02_[PCCE기출문제]공원.py)|
 
 
