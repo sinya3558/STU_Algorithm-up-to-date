@@ -66,6 +66,7 @@
   |**_1461_**|[도서관](https://www.acmicpc.net/problem/1461)|골드 4|[1461_도서관.py](./[BOJ]/1461_도서관.py)|00:30:34.06|`그리디` `정렬`|✔️|
   |**_20061_**|[모노미노도미노2](https://www.acmicpc.net/problem/20061)|골드 2|[20061_모노미노도미노2.py](./[BOJ]/20061_모노미노도미노2.py)|01:52:54.12|`구현` `시뮬레이션`|✅|
   |**_2239_**|[스도쿠](https://www.acmicpc.net/problem/2239)|골드 4|[2239_스도쿠.py](./[BOJ]/2239_스도쿠.py)|02:32:40.22|`구현` `백트래킹`|✔️|
+  |**_14719_**|[빗물](https://www.acmicpc.net/problem/14719)|골드 5|[14719_빗물.py](./[BOJ]/14719_빗물.py)|00:59:39.31|`구현` `시뮬레이션`|✅|
 </details>
 
 ### [PGS] 프로그래머스
@@ -80,6 +81,10 @@
   |**_42584_**|[주식 가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)|Lv 2|[42584_주식가격.py](./[PGS]/42584_주식가격.py)|00:32:04.89|`스택` `큐`|✅|
   |**_42626_**|[더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)|Lv 2|[42626_더맵게.py](./[PGS]/42626_더맵게.py)|00:20:48.97|`힙`|✅|
   |**_84021_**|[퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021)|Lv 3|[84021_퍼즐조각채우기.py](./[PGS]/84021_퍼즐조각채우기.py)|02:00:00.00|`BFS` `구현`|✅|
+  |**_150367_**|[표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)|Lv 3|[150367_표현가능한이진트리.py](./[PGS]/150367_표현가능한이진트리.py)|01:31:45.45|`완전이진트리`|✔️|
+  |**_150365_**|[미로 탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365?language=python3)|Lv 3|[150365_미로탈출명령어.py](./[PGS]/150365_미로탈출명령어.py)|02:00:00.00|`그리디`|✅|
+  |**_87694_**|[아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)|Lv 3|[87694_아이템줍기.py](./[PGS]/87694_아이템줍기.py)|03:00:00.00|`DFS` `BFS`|✔️|
+  |**_42579_**|[베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|Lv 3|[42579_베스트앨범.py](./[PGS]/42579_베스트앨범.py)|00:29:12.48|`해시`|✅|
 </details>
 
 ### [CDT] 코드트리
